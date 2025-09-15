@@ -2,6 +2,8 @@
 
 An interactive 3D environment built in Unity where a colorful ball bounces around a kid’s bedroom, and a tower of building blocks collapses realistically. Perfect for learning basic physics and interactive object scripting.
 
+<img width="762" height="493" alt="readme_image" src="https://github.com/user-attachments/assets/fd984e0b-102b-4902-8ad9-9d5f8d7dbfba" />
+
 ---
 
 ## 🎮 Features  
@@ -31,13 +33,31 @@ An interactive 3D environment built in Unity where a colorful ball bounces aroun
 
 ## 🚀 Getting Started  
 
-### 1️⃣ Clone the Repository  
+2️⃣ Open in Unity
 
-```bash
-git clone https://github.com/yourusername/kids-bedroom-project.git
-cd kids-bedroom-project
+Open Unity Hub
 
+Click Add Project and select this folder
 
-Designed a kid's bedroom with a bouncing ball and a tower of collapsing building blocks
+Open the KidsBedroom.unity scene from Scenes/
 
-<img width="762" height="493" alt="readme_image" src="https://github.com/user-attachments/assets/9ca8c5eb-290d-442b-a087-1da7074a3b9d" />
+3️⃣ Play
+
+Press Play in the Unity editor to see the bouncing ball and collapsing tower in action.
+
+⚙️ Configuration
+
+Ball bounce parameters can be adjusted in the Inspector under BallBounce script:
+
+bounceForce
+
+gravityMultiplier
+
+Block tower stability parameters are adjustable in BlockTowerCollapse:
+
+mass
+
+friction
+
+spawnHeight
+```
